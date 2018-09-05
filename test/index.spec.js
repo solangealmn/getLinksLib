@@ -12,7 +12,7 @@ describe("getLinksFromMd", function() {
   //"describe.only" roda apenas este teste "describe.skip" ou "x" para pular um teste
   describe("Quando nao houver parametro.", function() {
     it("Deve lancar um erro.", function() {
-      var badFn = function () { links.getLinksFromMd(null) };
+      var badFn = function () { links.getLinksFromMd("") };
       expect(badFn).to.throw('emptyInput');
     });
   });
