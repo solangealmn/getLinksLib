@@ -21,5 +21,12 @@
   "bugs": {
     "url": "https://github.com/solangealmn/getLinksLib/issues"
   },
-  "homepage": "https://github.com/solangealmn/getLinksLib#readme"
+  "homepage": "https://github.com/solangealmn/getLinksLib#readme",
+  "dependencies": {
+    "chai": "^4.1.2",
+    "mocha": "^5.2.0"
+  },
+  "devDependencies": {
+    "eslint": "^5.5.0"
+  }
 }
